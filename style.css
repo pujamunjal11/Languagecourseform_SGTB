@@ -190,6 +190,7 @@ a
     width: 100%; 
     padding-right: 10px; 
     display: inline-block;
+	}
 }
     label1 {
 		font: 14px Arial, Helvetica, sans-serif;
@@ -212,4 +213,4 @@ a
 	       }
     }
 
-}
+
