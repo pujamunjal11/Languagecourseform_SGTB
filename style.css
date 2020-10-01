@@ -1,5 +1,14 @@
 
-
+a
+{
+   font: 14px Arial, Helvetica, sans-serif;
+	color: #2A88AD;
+    font-weight: 600px;
+	margin-bottom: 15px; 
+    text-decoration: none;
+    font-weight: 600;
+    float: right;
+}
 .form-style-10{
 	max-width: 70%;
 	padding:50px;
@@ -19,6 +28,16 @@
 	border-radius: 6px;
 	margin-bottom: 15px;
 }
+.inner-wrap-upload{
+  
+	padding: 30px;
+  
+    content: normal;
+	background: #F8F8F8;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+
 .form-style-10 h1{
 	background: #2A88AD;
 	padding: 20px 30px 15px 30px;
@@ -59,6 +78,7 @@
 .form-style-10 input[type="time"],
 .form-style-10 input[type="url"],
 .form-style-10 input[type="password"],
+
 .form-style-10 textarea,
 .form-style-10 select {
 	display: block;
@@ -138,6 +158,28 @@
   background-color: #fff;
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
+.content-table
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;  
+}
+.content-table thead tr
+{
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: 400;
+	color: #494949;  
+    text-align: left;
+    
+}
+.content-table th
+{
+    padding: 12px 15px;
+}
+.content-table td
+{
+    padding: 12px 15px;
+}
 @media (max-width: 800px)  {
   .form-style-10 label{
 	
@@ -149,6 +191,15 @@
     padding-right: 10px; 
     display: inline-block;
 }
+    label1 {
+		font: 14px Arial, Helvetica, sans-serif;
+	color: #494949;
+    font-weight: 600px;
+	margin-bottom: 15px;
+    width: 100%; 
+    padding-right: 10px; 
+    display:contents;
+	       }
     @media only screen and (max-width: 420px) {
 	.form-style-10 label {
 		font: 14px Arial, Helvetica, sans-serif;
@@ -160,5 +211,5 @@
     display: inline-block;
 	       }
     }
- 
+
 }
