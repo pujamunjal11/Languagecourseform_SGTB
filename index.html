@@ -10,6 +10,19 @@
             document.getElementById('<%=textBox2.ClientID%>').value = "";
         }
     }
+    function myCreateFunction() {
+	      var x=document.getElementById('js-tableFacultyInnovation');
+		   var new_row = x.rows[1].cloneNode(true);
+		   var inp1 = new_row.cells[0].getElementsByTagName('input')[0];
+		   inp1.value = '';
+		   var inp2 = new_row.cells[1].getElementsByTagName('input')[0];
+		   inp2.value = '';
+		   var inp3 = new_row.cells[2].getElementsByTagName('input')[0];
+		   inp3.value = '';
+		   var inp4 = new_row.cells[3].getElementsByTagName('input')[0];
+		   inp4.value = '';
+		   x.appendChild( new_row );
+	}  
 </script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -79,7 +92,7 @@
     <td><input required="required" name="data[ForensicTempRecord][Qualification][0][year]" placeholder="Year" autocomplete="off" maxlength="4" type="text" id="ForensicTempRecord-year"></td>
     <td><input required="required" name="data[ForensicTempRecord][Qualification][0][university]" placeholder="University" class="form-control alpha-numeric-with-special" autocomplete="off" maxlength="255" type="text" id="ForensicTempRecord-university"></td>
     <td><input required="required" name="data[ForensicTempRecord][Qualification][0][subject]" placeholder="Subject" class="form-control alpha-numeric-with-special" autocomplete="off" maxlength="100" type="text" id="ForensicTempRecord-subject"></td>
-                                    
+    <td><button onclick="myCreateFunction()">Add</button></td>                             
                                    
      </tr>
     </tbody>
