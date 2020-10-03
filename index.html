@@ -74,7 +74,7 @@ function myDeleteFunction(el) {
 
     <div class="section"><span>3</span>Academic Details</div>
         <div class="inner-wrap">
-        
+        <div style="overflow-x:auto;">
              <table class=content-table id="table-school">
                            
         <thead>
@@ -91,7 +91,7 @@ function myDeleteFunction(el) {
     <td><input required="required" name="field17" placeholder="State" autocomplete="off" maxlength="20" type="text" id="state"></td>
     <td>
         </td></tr></tbody></table>      
-            
+		</div>
      
         
         <div class="section"> Details of Qualifying Exam</div>
@@ -120,7 +120,7 @@ function myDeleteFunction(el) {
     </tbody>
     </table>
 		</div>		
-           
+         <div style="overflow-x:auto;">  
         <table class=content-table id="table-result">                   
         <thead>
         <tr>
@@ -142,12 +142,14 @@ function myDeleteFunction(el) {
      </tr>
     </tbody>
     </table>
-</table>
+		 <div style="overflow-x:auto;">
+<table>
 	<tr>
 		<td><input type="button" value="Add a row" onclick="myCreateFunction()" /></td>  
 	</tr>
 </table>		
-            
+		 </div>
+		  <div style="overflow-x:auto;">
  <table class=content-table id="table-percentage">                  
         <thead>
           
@@ -172,6 +174,7 @@ function myDeleteFunction(el) {
      </tr>
     </tbody>
     </table>
+			   </div>
 	<div style="overflow-x:auto;">
   
 <div class="section"><span>4</span>Uploads</div>
